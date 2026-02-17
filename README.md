@@ -90,20 +90,27 @@ Download and install the APK from Google Drive:
 - Install Expo CLI globally:
   ```bash
   npm install -g expo-cli
-Installation Steps
+
+## Installation Steps
 Clone the repository
 
 bash
+```
 git clone <your-repository-url>
 cd react-native-notes-app
-Install dependencies
+```
+## Install dependencies
 
 bash
+```
 npm install
+```
 Run the project
 
 bash
+```
 npx expo start
+```
 Launch the app
 
 Press a → run Android emulator
