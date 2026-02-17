@@ -55,34 +55,33 @@ Download and install the APK from Google Drive:
 - **Context API** - State management
 
 ## 📁 Project Structure
-src/
-│
-├── components/
-│ ├── NoteCard.tsx
-│ ├── SearchBar.tsx
-│ └── CategorySelector.tsx
-│
-├── context/
-│ └── AuthContext.tsx
-│
-├── navigation/
-│ ├── RootNavigator.tsx
-│ ├── AuthStack.tsx
-│ └── MainStack.tsx
-│
-├── screens/
-│ ├── LoginScreen.tsx
-│ ├── RegisterScreen.tsx
-│ ├── HomeScreen.tsx
-│ ├── AddNoteScreen.tsx
-│ ├── EditNoteScreen.tsx
-│ ├── NoteDetailsScreen.tsx
-│ └── ProfileScreen.tsx
-│
-├── services/
-│ └── storage.ts
+      src/
+      │
+      ├── components/
+      │ ├── NoteCard.tsx
+      │ ├── SearchBar.tsx
+      │ └── CategorySelector.tsx
+      │
+      ├── context/
+      │ └── AuthContext.tsx
+      │
+      ├── navigation/
+      │ ├── RootNavigator.tsx
+      │ ├── AuthStack.tsx
+      │ └── MainStack.tsx
+      │
+      ├── screens/
+      │ ├── LoginScreen.tsx
+      │ ├── RegisterScreen.tsx
+      │ ├── HomeScreen.tsx
+      │ ├── AddNoteScreen.tsx
+      │ ├── EditNoteScreen.tsx
+      │ ├── NoteDetailsScreen.tsx
+      │ └── ProfileScreen.tsx
+      │
+      ├── services/
+      │ └── storage.ts
 
-text
 
 ## 🚀 How to Run the Project
 
@@ -113,29 +112,31 @@ Press w → run Web
 
 OR scan QR code using Expo Go app on your physical device
 
-💾 How Notes Storage Works
+## 💾 How Notes Storage Works
 Notes are stored locally using AsyncStorage with the following functions:
 
-addNote() - Create a new note
-
-getNotes() - Retrieve all notes
-
-updateNote() - Update an existing note
-
-deleteNote() - Delete a note
+    addNote() - Create a new note
+    
+    getNotes() - Retrieve all notes
+    
+    updateNote() - Update an existing note
+    
+    deleteNote() - Delete a note
 
 Data persists even after closing the app.
 
-🔐 Authentication Logic
+## 🔐 Authentication Logic
+```
 The app uses React Context for authentication management:
 
 AuthContext.tsx manages the logged-in user state
 
 Prevents access to main app without valid login
 
-Handles user registration, login, and logout
+Handles user registration, login, and logout ```
 
-📱 Screens
+## 📱 Screens
+```
 LoginScreen - User authentication
 
 RegisterScreen - New user registration
@@ -145,6 +146,7 @@ HomeScreen - Display all notes with search and sort
 AddNoteScreen - Create new notes
 
 EditNoteScreen - Modify existing notes
+```
 
 NoteDetailsScreen - View full note content
 
