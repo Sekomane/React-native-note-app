@@ -96,7 +96,7 @@ Clone the repository
 
 bash
 ```
-git clone <your-repository-url>
+git clone (https://github.com/Sekomane/React-native-note-app.git)
 cd react-native-notes-app
 ```
 ## Install dependencies
