@@ -137,15 +137,15 @@ Handles user registration, login, and logout ```
 
 ## 📱 Screens
 ```
-LoginScreen - User authentication
-
-RegisterScreen - New user registration
-
-HomeScreen - Display all notes with search and sort
-
-AddNoteScreen - Create new notes
-
-EditNoteScreen - Modify existing notes
+      LoginScreen - User authentication
+      
+      RegisterScreen - New user registration
+      
+      HomeScreen - Display all notes with search and sort
+      
+      AddNoteScreen - Create new notes
+      
+      EditNoteScreen - Modify existing notes
 ```
 
 NoteDetailsScreen - View full note content
